@@ -3,10 +3,10 @@
 require_relative '../config/environment'
 
 #default 2 human
-#Game.new.start 
+Game.new.start 
 
 #human vs AI 
 #Game.new(Players::Human.new("X"), Players::Computer.new("O")).start
 
 #AI vs AI 
-Game.new(Players::Computer.new("X"), Players::Computer.new("O")).start
+#Game.new(Players::Computer.new("X"), Players::Computer.new("O")).start
