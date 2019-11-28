@@ -2,4 +2,11 @@
 
 require_relative '../config/environment'
 
+default 2 human
+Game.new.start 
+
+human vs AI 
+Game.new.start
+
+AI vs AI 
 Game.new.start
